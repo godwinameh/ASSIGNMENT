@@ -40,10 +40,9 @@ body {
   
   p {
     font-size: 20px;
-    margin-top: -8px;
-    
+    margin-top: -8px; 
   }
-  
+
   .black-bold-text,
   .black-italic-text {
     text-decoration: underline;
@@ -53,7 +52,6 @@ body {
   
   .black-bold-text {
     font-weight: bolder;
-  
   }
   
   .black-italic-text {
@@ -98,8 +96,6 @@ body {
   legend {
     font-weight: bold;
     font-size: 18px;
-  
-  
   }
   .select select{
     padding: 4px;
@@ -108,7 +104,6 @@ body {
   
   .name-input {
     margin-bottom: 2px;
-  
   }
   
   .input {
@@ -119,7 +114,6 @@ body {
     padding: 6px;
     margin: 5px;
     outline: #e06a74;
-    
   }
   
   select {
@@ -143,7 +137,7 @@ body {
     height: 5px;
   }
   
-  button {
+  button{
     font-size: 9px;
     border-radius: 4px;
     border: 1px solid #000;
@@ -233,26 +227,5 @@ body {
     padding-bottom: 7px;
   }
   
-  @media screen and (max-width: 600px) {
-    fieldset {
-      width: 260px;
-    }
   
-    .left-right-container {
-      margin-top: 10px;
-    }
-  
-    h1 {
-      margin-top: -3px;
-    }
-  
-    img {
-      width: 200px;
-    }
-  
-    .footer-socials-container {
-      padding-bottom: 6px;
-      margin-top: -5px;
-    }
-  }
   
